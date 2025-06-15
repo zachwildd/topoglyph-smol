@@ -1,0 +1,94 @@
+#root {
+  display: flex;
+}
+.tg-module {
+  margin: 1em 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5em;
+  background: #f9f9f9;
+}
+
+.tg-module summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0.2em;
+}
+
+.tg-module[open] {
+  background: #fff;
+  border-color: #888;
+}
+
+.tg-module md-block {
+  margin-top: 0.5em;
+}
+
+#application-root {
+  margin: 12px;
+  margin-top: 8px;
+}
+
+#conversation-root {
+  padding: 10px;
+}
+
+#box-for-typing {
+  border: 1px solid #ccc;
+  padding: 6px;
+  margin-top: 10px;
+  min-height: 30px;
+  width: 100%;
+  height: 8rem;
+}
+
+#visualization-root {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+.messages {
+  .message {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 6px;
+    max-width: 60%;
+  }
+  .right {
+    background-color: #e0f7fa;
+    align-self: flex-end;
+    text-align: right;
+  }
+  .left {
+    background-color: #f1f8e9;
+    align-self: flex-start;
+    text-align: left;
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  div {
+    border: 1px solid orange;
+    padding: 4px;
+    margin: 0px 2px;
+  }
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.layer {
+  border: 1px solid rgb(43, 107, 226);
+}

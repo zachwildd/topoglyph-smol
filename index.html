@@ -1,0 +1,60 @@
+<head>
+    <title>TopoGlyph Demo | topoglyph.net</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+</head>
+<body>
+    <span>
+        <a href="https://github.com/zachwildd/topoglyph-smol">Github</a> | <a href="./library.html">Library</a>
+    </span>
+    <div id="root">
+        <div id="application-root">
+            <div>
+                <h2>TopoGlyph (smol)</h2>
+                <p>
+                    A dual-encoding language system called "TopoGlyph" that functions simultaneously as:
+                    <ul>
+                        <li>1. A symbolic written language with syntactic and semantic rules</li>
+                        <li>2. A visual system that directly represents topological information processes </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="messages">
+                <!-- Conversation Log -->
+            </div>
+
+            <div>
+                <textarea id="message" style="flex: 1; height: 180px; width: 95vw"></textarea>
+                <br/>
+                <br/>
+                <button id="send">Send</button>
+                <br/>
+                <br/>
+            </div>
+
+
+            <div id="config"> 
+                <legend>Choose a model:</legend>
+            </div>
+
+            <div style="width: 95vw; margin-top: 12px">
+                <legend>System prompt:</legend>
+                <div id="modules">
+                    <!-- Displays all the modules the model is using in the system prompt -->
+                </div>
+            </div>
+
+            <div style="width: 95vw; margin-top: 12px">
+                <legend>Example Applications:</legend>
+                <div id="examples">
+                    <!-- Displays all the modules the model is using in the system prompt -->
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="./client.js"></script>
+</body>
